@@ -2,6 +2,8 @@
     position:relative;
     float:left;
     font-size:30px;
+    margin-top:10px;
+    margin-bottom:50px;
 }
 
 #menu2{
@@ -11,11 +13,17 @@
 }
 
 .ul li{
+    font-size:15px;
     list-style:none;
     position:relative;
     float:left;
     margin-left:50px;
-    margin-top:20px;
+    margin-top:30px;
+    cursor:pointer;
+
+    font-family:Arial,Helvetica,sans-serif;font-size:100%;
+
+
 }
 
 .tupian img{
@@ -35,6 +43,31 @@
     position:relative;
     float:left;
     margin:2px 2px 2px 2px;
+    cursor:pointer;
+
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+
+.shuom{
+    position: absolute;
+    bottom: 50%;
+    color: #fff;
+    font-size:20px;
+    display: none;
+}
+
+
+.example:hover .shuom {  display: inline-block;  width: 100%;  text-align: center;}
+
+.example:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 
@@ -78,15 +111,16 @@
 }
 
 .sheet{
-    margin:50px 0 -30px 0;
+    margin:50px 0px -30px 0px;
 }
 
 .ul1 li{
     list-style:none;
     position:relative;
     float:left;
-    margin-left:50px;
+    margin-left:120px;
     margin-top:20px;
+
 }
 
 .ul1 li a{
