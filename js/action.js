@@ -1,16 +1,3 @@
-$(document).ready(function() {
-    $("#image1").sparkle({
-        color: "#FFFFFF",
-        count: 100,
-        overlap: 0,
-        speed: 1,
-        minSize: 4,
-        maxSize: 10,
-        direction: "both"
-    });
-
-
-});
 
 function image4(){
 
