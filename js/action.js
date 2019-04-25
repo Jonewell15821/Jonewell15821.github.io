@@ -14,5 +14,12 @@ function more(){
     var obj = $(i).html();
 
     $(".anli").append(obj);
-
 }
+
+$(function() {
+    $('.ul1 li').click(function() {
+        var i = $(this).index();
+        $(this).addClass('on').siblings().removeClass('on');
+        $('.tab-content').removeClass('show').eq(i).addClass('show');
+    })
+})
